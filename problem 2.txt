@@ -1,0 +1,12 @@
+class Solution {
+    public int theMaximumAchievableX(int num, int t) {
+       int res=num;
+       while(t!=0)
+       {
+        res=res+2;
+        t--;
+       }
+       return res;
+    }
+
+}
